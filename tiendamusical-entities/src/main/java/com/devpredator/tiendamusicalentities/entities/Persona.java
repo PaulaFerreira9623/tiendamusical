@@ -14,7 +14,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 /**
- * @author DevPredator
+ * @author Pauli
  * Clase que representa entidades de personas que manejan el aplicativo.
  */
 @Entity

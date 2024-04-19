@@ -8,7 +8,7 @@ import javax.faces.application.FacesMessage.Severity;
 import javax.faces.context.FacesContext;
 
 /**
- * @author DevPredator
+ * @author Pauli
  * Clase generada para crear funciones globales o comunes entre clases del proyecto.
  */
 public class CommonUtils {

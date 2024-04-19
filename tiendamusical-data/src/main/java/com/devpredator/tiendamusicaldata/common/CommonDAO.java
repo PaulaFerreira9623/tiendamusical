@@ -13,7 +13,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
- * @author DevPredator
+ * @author Pauli
  * Clase generica que representa los metodos del CRUD que se reutilizan en todas las entidades del proyecto.
  * E - Significa la entidad a utilizar en el CRUD.
  * R - Significa el repositorio a utilizar de JPA para ejecutar el CRUD.

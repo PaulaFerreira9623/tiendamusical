@@ -11,7 +11,7 @@ import com.devpredator.tiendamusicalentities.entities.Persona;
 import com.devpredator.tiendamusicalservices.service.LoginService;
 
 /**
- * @author DevPredator
+ * @author Pauli
  * Clase que implementa las funciones para la logica de negocio para la pantalla de login.
  */
 @Service

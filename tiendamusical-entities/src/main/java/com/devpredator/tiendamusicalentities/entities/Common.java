@@ -9,7 +9,7 @@ import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
 /**
- * @author DevPredator
+ * @author Pauli
  * Clase que contiene los campos comunes de la base de datos que se pueden utilizar en varias tablas
  */
 @MappedSuperclass

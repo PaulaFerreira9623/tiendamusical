@@ -8,7 +8,7 @@ import com.devpredator.tiendamusicaldata.dao.PersonaDAO;
 import com.devpredator.tiendamusicalentities.entities.Persona;
 
 /**
- * @author DevPredator
+ * @author Pauli
  * Clase que implementa el CRUD Generico y las funciones de la interface de PersonaDAO.
  */
 public class PersonaDAOImpl extends CommonDAO<Persona, PersonaDAO> {

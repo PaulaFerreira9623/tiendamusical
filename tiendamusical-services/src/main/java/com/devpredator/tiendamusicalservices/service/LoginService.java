@@ -6,7 +6,7 @@ package com.devpredator.tiendamusicalservices.service;
 import com.devpredator.tiendamusicalentities.entities.Persona;
 
 /**
- * @author DevPredator
+ * @author Pauli
  * Interface que realiza la logica de negocio para el inicio de sesion de la persona.
  */
 public interface LoginService {

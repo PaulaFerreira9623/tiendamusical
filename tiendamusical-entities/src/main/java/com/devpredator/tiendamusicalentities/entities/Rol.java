@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * @author DevPredator
+ * @author Pauli
  * Clase que contiene entidades de perfiles de usuarios.
  */
 @Entity

@@ -9,7 +9,7 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import com.devpredator.tiendamusicalentities.entities.Persona;
 
 /**
- * @author DevPredator
+ * @author Pauli
  * Clase DAO que realiza el CRUD con SpringJPA para la tabla de persona.
  */
 public interface PersonaDAO extends PagingAndSortingRepository<Persona, Long>{

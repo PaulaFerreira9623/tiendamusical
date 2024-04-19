@@ -14,7 +14,7 @@ import com.devpredator.tiendamusicalservices.service.LoginService;
 import com.devpredator.tiendamusicalweb.utils.CommonUtils;
 
 /**
- * @author DevPredator
+ * @author Pauli
  * Controlador que se encarga del flujo de la pantalla de login.xhtml.
  */
 @ManagedBean
@@ -46,7 +46,12 @@ public class LoginController {
 		
 		Persona personaConsultada = this.loginServiceImpl.consultarUsuarioLogin(this.usuario, this.password);
 		
+		System.out.println("personaConsultada antes del if "+ personaConsultada);
+		
 		if (personaConsultada != null) {
+			
+			System.out.println("personaConsultada "+ personaConsultada);
+			
 			CommonUtils.mostrarMensaje(FacesMessage.SEVERITY_INFO, "¡EXITOSO!", "Bienvenido al home :)");
 		} else {
 			CommonUtils.mostrarMensaje(FacesMessage.SEVERITY_ERROR, "¡UPS!", "El usuario y/o contraseña son incorrectos");			
